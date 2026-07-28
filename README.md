@@ -1,4 +1,4 @@
-# Analisis Faktor Penentu Harga Mobil
+<img width="1486" height="55" alt="image" src="https://github.com/user-attachments/assets/6a4f1d6f-2db2-4002-b72f-73e50bea4f7d" /># Analisis Faktor Penentu Harga Mobil
 
 ## Business Problem
 Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spesifikasi atau performa yang ditawarkan, karena tidak ada acuan yang jelas tentang faktor apa saja yang seharusnya memengaruhi harga jual kendaraan.
@@ -44,9 +44,11 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 8. Conclusion
 
 ## Data Cleaning
-* Menangani missing values
-* Mengubah tipe data
-* Membersihkan format teks
+* Menangani missing value menggunakan funsi COUNTBLANK
+* Penanganan data yang tidak lengkap melalui imputasi statistik (mean untuk data dengan variasi kecil, median untuk data yang lebih tersebar atau memiliki outlier).
+* Imputasi berbasis grup untuk variabel yang nilainya bergantung pada kategori tertentu.
+* Konversi tipe data teks ke numerik
+* Standarisasi kategori menggunakan fungsi PROPER.
   
 ## Exploratory Data Analysis
 * **Analisis Deskriptif:** Memberikan gambaran umum tentang dataset melalui metrik utama yang mencakup total sampel data dan perhitungan rata-rata untuk variabel-variabel kunci seperti harga, tenaga mesin (Horsepower), konsumsi bahan bakar di kota (City MPG), dan di jalan raya (Highway MPG).
@@ -77,7 +79,7 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 ## Dashboard Tableau
 [Dashboard Tableau - Analisis Harga & Spesifikasi Mobil](https://public.tableau.com/views/DashboardAnalisisHargaSpesifikasiMobil/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(tableau).png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(tableau).png?raw=true" width=600 height=300>
 
 ## Business Insight
 * Tipe bodi menentukan segman harga, bukan populasi
