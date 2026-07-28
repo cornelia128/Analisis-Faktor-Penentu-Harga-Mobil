@@ -71,10 +71,12 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 
 ## Dashboard Excel
 [Dashboard Excel - Analisis Harga & Spesifikasi Mobil](https://1drv.ms/x/c/33df3e24b33e1e8a/IQD08wg-yxfWQqZT0MPR5NnQAW9mzsujnobUHLORorNLz1Y?e=fcrFbW)
-<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(excel).jpg?raw=true" width=500 height=300>
+
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(excel).jpg?raw=true" width=500 height=300>
 
 ## Dashboard Tableau
 [Dashboard Tableau - Analisis Harga & Spesifikasi Mobil](https://public.tableau.com/views/DashboardAnalisisHargaSpesifikasiMobil/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 <img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(tableau).png?raw=true" width=500 height=300>
 
 ## Business Insight
