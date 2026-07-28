@@ -1,5 +1,3 @@
-<img width="1486" height="55" alt="image" src="https://github.com/user-attachments/assets/6a4f1d6f-2db2-4002-b72f-73e50bea4f7d" /># Analisis Faktor Penentu Harga Mobil
-
 ## Business Problem
 Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spesifikasi atau performa yang ditawarkan, karena tidak ada acuan yang jelas tentang faktor apa saja yang seharusnya memengaruhi harga jual kendaraan.
 
@@ -45,10 +43,10 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 
 ## Data Cleaning
 * Menangani missing value menggunakan funsi COUNTBLANK
-* Penanganan data yang tidak lengkap melalui imputasi statistik (mean untuk data dengan variasi kecil, median untuk data yang lebih tersebar atau memiliki outlier).
-* Imputasi berbasis grup untuk variabel yang nilainya bergantung pada kategori tertentu.
+* Penanganan data yang tidak lengkap melalui imputasi statistik (mean untuk data dengan variasi kecil, median untuk data yang lebih tersebar atau memiliki outlier)
+* Imputasi berbasis grup untuk variabel yang nilainya bergantung pada kategori tertentu
 * Konversi tipe data teks ke numerik
-* Standarisasi kategori menggunakan fungsi PROPER.
+* Standarisasi kategori menggunakan fungsi PROPER
   
 ## Exploratory Data Analysis
 * **Analisis Deskriptif:** Memberikan gambaran umum tentang dataset melalui metrik utama yang mencakup total sampel data dan perhitungan rata-rata untuk variabel-variabel kunci seperti harga, tenaga mesin (Horsepower), konsumsi bahan bakar di kota (City MPG), dan di jalan raya (Highway MPG).
