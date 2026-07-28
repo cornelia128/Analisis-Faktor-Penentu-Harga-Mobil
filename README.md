@@ -81,7 +81,8 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 
 ## Business Insight
 * Tipe bodi menentukan segman harga, bukan populasi
-<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/1.png?raw=true" width=500 height=300> <img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/1.2.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/1.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/1.2.png?raw=true" width=500 height=300>
 Sedan mendominasi populasi (94 unit, 47%) namun harganya menengah ($14.460) bukan yang termurah. Hatchback justru lebih murah ($9.957) meski populasinya lebih sedikit. Dominasi jumlah unit tidak berbanding lurus dengan harga termurah.
 * Kesenjangan harga antar merek sangat lebar
 <img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/2.png?raw=true" width=600 height=300>
@@ -90,8 +91,18 @@ Jaguar dijual lebih dari 5x lipat harga rata-rata Chevrolet ($34.600 vs $6.007),
 <img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/3.png?raw=true" width=600 height=300>
 Mobil High Power dijual hampir 3x lipat dari Low Power ($25.294 vs $8.738). Korelasi Pearson horsepower-harga tergolong kuat (+0,81). Diesel Turbo adalah kombinasi termahal, Diesel Standard yang termurah — teknologi aspirasi (turbo) lebih menentukan harga dibanding jenis bahan bakar itu sendiri.
 * FWD & Hatchback: Kombinasi Value-for-Money Terbaik
-<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/4.png?raw=true" width=500 height=300> <img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/4.2.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/4.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/4.2.png?raw=true" width=500 height=300>
 FWD paling irit di kota maupun jalan tol, sementara RWD paling boros (biasanya mobil sport bertenaga besar). Hatchback konsisten muncul sebagai rekomendasi rasio tenaga & efisiensi terbaik per dollar.
 
 ## Recommendation
+* Gunakan $13.207 sebagai acuan dasar — mobil jauh di atas angka ini tanpa horsepower/merek premium patut dipertanyakan value-nya.
+* Pilih tipe bodi Hatchback dan sistem penggerak FWD untuk kombinasi harga terjangkau dan efisiensi BBM terbaik.
+* Waspadai price premium dari merek (Jaguar, Mercedes-Benz, Porsche) dan mesin Turbo — kenaikan harga tidak selalu sebanding kenaikan performa aktual.
+* Untuk performa tinggi dengan harga wajar, cek segmen Medium Power (100-150 HP) sebagai titik tengah value-for-money.
+
 ## Conclusion
+* Horsepower, merek/brand, dan teknologi aspirasi (turbo) secara konsisten menjadi pendorong harga terkuat di seluruh analisis.
+* Kombinasi Hatchback + FWD paling konsisten muncul sebagai pilihan rasional dari sisi harga maupun efisiensi bahan bakar.
+* Tipe bodi paling banyak beredar (Sedan) tidak selalu paling terjangkau — popularitas dan harga adalah dua dimensi yang berbeda.
+* Rata-rata harga pasar $13.207 dan segmentasi tenaga mesin dapat dipakai konsumen sebagai standar dasar yang objektif.
