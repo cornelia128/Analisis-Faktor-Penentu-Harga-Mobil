@@ -50,7 +50,7 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
   
 ## Exploratory Data Analysis
 * **Analisis Deskriptif:** Memberikan gambaran umum tentang dataset melalui metrik utama yang mencakup total sampel data dan perhitungan rata-rata untuk variabel-variabel kunci seperti harga, tenaga mesin (Horsepower), konsumsi bahan bakar di kota (City MPG), dan di jalan raya (Highway MPG).
-* **Analisis Segmentasi  Harga:** Membandingkan rata-rata harga di berbagai tipe bodi, mengindentifikasi 5 merek dengan rata-rata harga tertinggi, menganalisis pengaruh kombinasi jenis bahan bakar (Gas/Disel) dan sistem aspirasi (Standard/Turbo) terhadap harga.
+* **Analisis Segmentasi  Harga:** Membandingkan rata-rata harga di berbagai tipe bodi, mengindentifikasi 5 merek dengan rata-rata harga tertinggi dan terendah, menganalisis pengaruh kombinasi jenis bahan bakar (Gas/Disel) dan sistem aspirasi (Standard/Turbo) terhadap harga.
 * **Analisis Distribusi:** Melakukan penghitungan frekuensi untuk melihat tipe bodi mana yang paling dominan dalam dataset.
 * **Analisis Efisiensi Bahan Bakar:** Membandingkan efisiensi baha bakar (City MPG dan Highway MPG) berdasarkan sistem penggerak roda (4Wd, Fwd, dan Rwd).
 * **Analisis Korelasi dan Segmentasi Performa:** Melihat hubungan antara tenaga mesin (Horsepower) denga harga mobil.
@@ -72,7 +72,7 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 ## Dashboard Excel
 [Dashboard Excel - Analisis Harga & Spesifikasi Mobil](https://1drv.ms/x/c/33df3e24b33e1e8a/IQD08wg-yxfWQqZT0MPR5NnQAW9mzsujnobUHLORorNLz1Y?e=fcrFbW)
 
-<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(excel).jpg?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(excel).jpg?raw=true" width=500 height=300>
 
 ## Dashboard Tableau
 [Dashboard Tableau - Analisis Harga & Spesifikasi Mobil](https://public.tableau.com/views/DashboardAnalisisHargaSpesifikasiMobil/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -80,5 +80,18 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 <img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(tableau).png?raw=true" width=500 height=300>
 
 ## Business Insight
+* Tipe bodi menentukan segman harga, bukan populasi
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/1.png?raw=true" width=500 height=300> <img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/1.2.png?raw=true" width=500 height=300>
+Sedan mendominasi populasi (94 unit, 47%) namun harganya menengah ($14.460) bukan yang termurah. Hatchback justru lebih murah ($9.957) meski populasinya lebih sedikit. Dominasi jumlah unit tidak berbanding lurus dengan harga termurah.
+* Kesenjangan harga antar merek sangat lebar
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/2.png?raw=true" width=600 height=300>
+Jaguar dijual lebih dari 5x lipat harga rata-rata Chevrolet ($34.600 vs $6.007), dan +$21.393 di atas rata-rata pasar — brand/merek adalah salah satu pendorong harga terkuat.
+* Aspirasi turbo dan tenaga mesin mendorong harga
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/3.png?raw=true" width=600 height=300>
+Mobil High Power dijual hampir 3x lipat dari Low Power ($25.294 vs $8.738). Korelasi Pearson horsepower-harga tergolong kuat (+0,81). Diesel Turbo adalah kombinasi termahal, Diesel Standard yang termurah — teknologi aspirasi (turbo) lebih menentukan harga dibanding jenis bahan bakar itu sendiri.
+* FWD & Hatchback: Kombinasi Value-for-Money Terbaik
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/4.png?raw=true" width=500 height=300> <img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/business%20insight%20images/4.2.png?raw=true" width=500 height=300>
+FWD paling irit di kota maupun jalan tol, sementara RWD paling boros (biasanya mobil sport bertenaga besar). Hatchback konsisten muncul sebagai rekomendasi rasio tenaga & efisiensi terbaik per dollar.
+
 ## Recommendation
 ## Conclusion
