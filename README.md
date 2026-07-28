@@ -1,7 +1,7 @@
 # Analisis Faktor Penentu Harga Mobil
 
 ## Business Problem
-Konsumen dan dealer kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spesifikasi atau performa yang ditawarkan, karena tidak ada acuan yang jelas tentang faktor apa saja yang seharusnya memengaruhi harga jual kendaraan.
+Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spesifikasi atau performa yang ditawarkan, karena tidak ada acuan yang jelas tentang faktor apa saja yang seharusnya memengaruhi harga jual kendaraan.
 
 ## Objectives
 * Mengindentifikasi pengaruh tipe bodi mobil terhadap harga jual
@@ -9,7 +9,7 @@ Konsumen dan dealer kesulitan menentukan apakah harga sebuah mobil sudah sesuai 
 * Menganalisis korelasi antara performa mesin dan harga
 * Mengevaluasi dampak spesifikasi teknis (bahan bakar dan aspirasi) terhadap harga
 * Membandingkan efisiensi bahan bakar berdasarkan sistem penggerak
-* Menyediakan acuan harga yang objektif bagi konsumen dan dealer
+* Menyediakan acuan harga yang objektif bagi konsumen
   
 ## Business Questions
 * Bagaimana tipe bodi mobil memengaruhi rata-rata harga jual di pasar?
@@ -45,6 +45,12 @@ Konsumen dan dealer kesulitan menentukan apakah harga sebuah mobil sudah sesuai 
 * Membersihkan format teks
   
 ## Exploratory Data Analysis
+* **Analisis Deskriptif:** Memberikan gambaran umum tentang dataset melalui metrik utama yang mencakup total sampel data dan perhitungan rata-rata untuk variabel-variabel kunci seperti harga, tenaga mesin (Horsepower), konsumsi bahan bakar di kota (City MPG), dan di jalan raya (Highway MPG).
+* **Analisis Segmentasi  Harga:** Membandingkan rata-rata harga di berbagai tipe bodi, mengindentifikasi 5 merek dengan rata-rata harga tertinggi, menganalisis pengaruh kombinasi jenis bahan bakar (Gas/Disel) dan sistem aspirasi (Standard/Turbo) terhadap harga.
+* **Analisis Distribusi:** Melakukan penghitungan frekuensi untuk melihat tipe bodi mana yang paling dominan dalam dataset.
+* **Analisis Efisiensi Bahan Bakar:** Membandingkan efisiensi baha bakar (City MPG dan Highway MPG) berdasarkan sistem penggerak roda (4Wd, Fwd, dan Rwd).
+* **Analisis Korelasi (Hubungan Antar Variabel):** Melihat hubungan antara tenaga mesin (Horsepower) denga harga mobil.
+  
 ## SQL Analysis
 
 ## Dashboard Excel
