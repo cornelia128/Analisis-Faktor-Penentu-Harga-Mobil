@@ -42,7 +42,7 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 8. Conclusion
 
 ## Data Cleaning
-* Menangani missing value menggunakan funsi COUNTBLANK
+* Menangani missing value menggunakan fungsi COUNTBLANK
 * Penanganan data yang tidak lengkap melalui imputasi statistik (mean untuk data dengan variasi kecil, median untuk data yang lebih tersebar atau memiliki outlier)
 * Imputasi berbasis grup untuk variabel yang nilainya bergantung pada kategori tertentu
 * Konversi tipe data teks ke numerik
