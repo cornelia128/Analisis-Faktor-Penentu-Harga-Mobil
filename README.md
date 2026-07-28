@@ -5,20 +5,25 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 
 ## Objectives
 * Mengindentifikasi pengaruh tipe bodi mobil terhadap harga jual
-* Menentukan merek mobil yang memiliki nilai jual tertinggi
-* Menganalisis korelasi antara performa mesin dan harga
+* Menentukan merek mobil dengan nilai jual tertinggi maupun terendah sebagai pembanding segmen
 * Mengevaluasi dampak spesifikasi teknis (bahan bakar dan aspirasi) terhadap harga
 * Membandingkan efisiensi bahan bakar berdasarkan sistem penggerak
-* Menyediakan acuan harga yang objektif bagi konsumen
+* Menganalisis korelasi antara performa mesin dan harga, termasuk segmentasi tingkat tenaga mesin
+* Mengindentifikasi mobil dengan value-for-money terbaik sebagai rekomendasi objektif bagi konsumen
+* Menyediakan acuan harga pasar yang objektif bagi konsumen
   
 ## Business Questions
 * Bagaimana tipe bodi mobil memengaruhi rata-rata harga jual di pasar?
-* Merek mobil apa saja yang masuk dalam TOP 5 dengan rata-rata harga tertinggi, dan berapa kisaran harga yang mereka tawarkan dibandingkan rata-rata pasar?
-* Sejauh mana peningkatan tenaga mesin (Horsepower) berkontribusi terhadap kenaikan harga sebuah mobil?
+* 5 merek mobil apa saja yang memiliki rata-rata harga tertinggi, dan berapa kisaran harga yang mereka tawarkan dibandingkan rata-rata pasar?
+* 5 merek mobil apa saja yang berada di segmen paling terjangkau (mobil dengan rata-rata harga terendah) 
 * Bagaimana kombinasi antara jenis bahan bakar (Diesel vs Gas) dan sistem aspirasi (Standard vs Turbo) memengaruhi nilai jual kendaraan?
-* Sistem penggerak roda (Drive Wheels) mana yang paling efisien dalam penggunaan bahan bakar, baik untuk penggunaan di dalam kota (City MPG) maupun jalan tol (Highway MPG)?
-* Berapa nilai rata-rata harga pasar secara keseluruhan yang dapat digunakan oleh konsumen dan dealer sebagai standar dasar sebelum mempertimbangkan spesifikasi tambahan?
-* Tipe bodi mobil mana yang memiliki jumlah unit terbanyak di pasar dan apakah dominasi jumlah ini berkaitan dengan keterjangkauan harganya?
+* Sistem penggerak roda (Drive Wheels) mana yang paling efisien dalam penggunaan bahan bakar, baik untuk penggunaan di dalam kota (City MPG) maupun jalan tol  (Highway MPG)?
+* Sejauh mana peningkatan tenaga mesin (Horsepower) berkontribusi terhadap kenaikan harga sebuah mobil, dan bagaimana pola harga jika mobil dikelompokkan berdasarkan level tenaga (Low/Medium/High Power)?
+* Tipe bodi mobil mana yang memiliki jumlah unit terbanyak di pasar, dan apakah dominasi jumlah ini berkaitan dengan keterjangkauan harganya?
+* Mobil apa yang menawarkan efisiensi bahan bakar di atas rata-rata sekaligus harga di bawah rata-rata?
+* Merek dan tipe bodi apa yang memberikan rasio tenaga mesin tertinggi per dollar yang dibayarkan?
+* Mobil apa saja yang menawarkan tenaga mesin besar dengan harga di bawah rata-rata pasar, dan mobil mana yang dijual mahal tanpa didukung tenaga mesin besar?
+* Berapa nilai rata-rata harga pasar secara keseluruhan yang dapat digunakan oleh konsumen sebagai standar dasar sebelum mempertimbangkan spesifikasi tambahan?
 
 ## Dataset
 * Sumber: [Kaggle - Automobile Dataset](https://www.kaggle.com/datasets/toramky/automobile-dataset)
@@ -49,15 +54,23 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 * **Analisis Segmentasi  Harga:** Membandingkan rata-rata harga di berbagai tipe bodi, mengindentifikasi 5 merek dengan rata-rata harga tertinggi, menganalisis pengaruh kombinasi jenis bahan bakar (Gas/Disel) dan sistem aspirasi (Standard/Turbo) terhadap harga.
 * **Analisis Distribusi:** Melakukan penghitungan frekuensi untuk melihat tipe bodi mana yang paling dominan dalam dataset.
 * **Analisis Efisiensi Bahan Bakar:** Membandingkan efisiensi baha bakar (City MPG dan Highway MPG) berdasarkan sistem penggerak roda (4Wd, Fwd, dan Rwd).
-* **Analisis Korelasi (Hubungan Antar Variabel):** Melihat hubungan antara tenaga mesin (Horsepower) denga harga mobil.
+* **Analisis Korelasi dan Segmentasi Performa:** Melihat hubungan antara tenaga mesin (Horsepower) denga harga mobil.
   
 ## SQL Analysis
-![image alt](https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/1.png?raw=true)
-
 <img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/1.png?raw=true" width=500 height=300>
 
+<img src="" width=500 height=300>
+<img src="" width=500 height=300>
+<img src="" width=500 height=300>
+<img src="" width=500 height=300>
+<img src="" width=500 height=300>
+
+
 ## Dashboard Excel
+[Dashboard Excel - Analisis Harga & Spesifikasi Mobil]( )
+
 ## Dashboard Tableau
+[Dashboard Excel - Analisis Harga & Spesifikasi Mobil]( )
 
 ## Business Insight
 ## Recommendation
