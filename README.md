@@ -52,6 +52,7 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 * **Analisis Korelasi (Hubungan Antar Variabel):** Melihat hubungan antara tenaga mesin (Horsepower) denga harga mobil.
   
 ## SQL Analysis
+![image alt](https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/1.png?raw=true)
 
 ## Dashboard Excel
 ## Dashboard Tableau
