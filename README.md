@@ -1,4 +1,4 @@
-<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/65ec3c47-9bd6-4fdc-934b-9dc0f62c7df8" /><img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/63dae562-13e6-4202-a7a9-eecdb58a98bc" /><img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/323a4914-97f6-45e4-9e03-0873b75437d7" /># Analisis Faktor Penentu Harga Mobil
+# Analisis Faktor Penentu Harga Mobil
 
 ## Business Problem
 Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spesifikasi atau performa yang ditawarkan, karena tidak ada acuan yang jelas tentang faktor apa saja yang seharusnya memengaruhi harga jual kendaraan.
