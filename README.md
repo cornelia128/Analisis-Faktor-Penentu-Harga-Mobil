@@ -1,4 +1,4 @@
-# Analisis Faktor Penentu Harga Mobil
+<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/65ec3c47-9bd6-4fdc-934b-9dc0f62c7df8" /><img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/63dae562-13e6-4202-a7a9-eecdb58a98bc" /><img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/323a4914-97f6-45e4-9e03-0873b75437d7" /># Analisis Faktor Penentu Harga Mobil
 
 ## Business Problem
 Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spesifikasi atau performa yang ditawarkan, karena tidak ada acuan yang jelas tentang faktor apa saja yang seharusnya memengaruhi harga jual kendaraan.
@@ -21,7 +21,6 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 * Sejauh mana peningkatan tenaga mesin (Horsepower) berkontribusi terhadap kenaikan harga sebuah mobil, dan bagaimana pola harga jika mobil dikelompokkan berdasarkan level tenaga (Low/Medium/High Power)?
 * Tipe bodi mobil mana yang memiliki jumlah unit terbanyak di pasar, dan apakah dominasi jumlah ini berkaitan dengan keterjangkauan harganya?
 * Mobil apa yang menawarkan efisiensi bahan bakar di atas rata-rata sekaligus harga di bawah rata-rata?
-* Merek dan tipe bodi apa yang memberikan rasio tenaga mesin tertinggi per dollar yang dibayarkan?
 * Mobil apa saja yang menawarkan tenaga mesin besar dengan harga di bawah rata-rata pasar, dan mobil mana yang dijual mahal tanpa didukung tenaga mesin besar?
 * Berapa nilai rata-rata harga pasar secara keseluruhan yang dapat digunakan oleh konsumen sebagai standar dasar sebelum mempertimbangkan spesifikasi tambahan?
 
@@ -57,20 +56,26 @@ Konsumen kesulitan menentukan apakah harga sebuah mobil sudah sesuai dengan spes
 * **Analisis Korelasi dan Segmentasi Performa:** Melihat hubungan antara tenaga mesin (Horsepower) denga harga mobil.
   
 ## SQL Analysis
-<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/1.png?raw=true" width=500 height=300>
-
-<img src="" width=500 height=300>
-<img src="" width=500 height=300>
-<img src="" width=500 height=300>
-<img src="" width=500 height=300>
-<img src="" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/1.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/2.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/3.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/4.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/5.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/6.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/7.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/8.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/9.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/10.png?raw=true" width=500 height=300>
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/11.png?raw=true" width=500 height=300>
 
 
 ## Dashboard Excel
-[Dashboard Excel - Analisis Harga & Spesifikasi Mobil]( )
+[Dashboard Excel - Analisis Harga & Spesifikasi Mobil](https://1drv.ms/x/c/33df3e24b33e1e8a/IQD08wg-yxfWQqZT0MPR5NnQAW9mzsujnobUHLORorNLz1Y?e=fcrFbW)
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(excel).jpg?raw=true" width=500 height=300>
 
 ## Dashboard Tableau
-[Dashboard Excel - Analisis Harga & Spesifikasi Mobil]( )
+[Dashboard Tableau - Analisis Harga & Spesifikasi Mobil](https://public.tableau.com/views/DashboardAnalisisHargaSpesifikasiMobil/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+<img src="https://github.com/cornelia128/Analisis-Faktor-Penentu-Harga-Mobil/blob/main/images/Dashboard%20Analisis%20Harga%20&%20Spesifikasi%20Mobil%20(tableau).png?raw=true" width=500 height=300>
 
 ## Business Insight
 ## Recommendation
