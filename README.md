@@ -115,4 +115,4 @@ FWD paling irit di kota maupun jalan tol, sementara RWD paling boros (biasanya m
 * Horsepower, merek/brand, dan teknologi aspirasi (Turbo) secara konsisten menjadi pendorong harga terkuat di seluruh analisis.
 * Kombinasi Hatchback + FWD paling konsisten muncul sebagai pilihan rasional dari sisi harga maupun efisiensi bahan bakar.
 * Tipe bodi paling banyak beredar (Sedan) tidak selalu paling terjangkau; popularitas dan harga adalah dua dimensi yang berbeda.
-* Rata-rata harga pasar $13.207 dan segmentasi tenaga mesin dapat dipakai konsumen sebagai standar dasar yang objektif.
+* Rata-rata harga pasar $13.207 dan segmentasi tenaga mesin dapat digunakan konsumen sebagai standar dasar yang objektif.
